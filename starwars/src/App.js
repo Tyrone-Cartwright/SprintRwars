@@ -34,8 +34,7 @@ const App = () => {
           key={index} 
           name={character.name} 
           birthyear={character['birth_year']}
-          height={character.height}
-          hair={character.hair_color}
+          height={character.height}          
           gender={character.gender}  />)}
       </div>
     </div>
